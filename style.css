@@ -18,13 +18,14 @@
 .card {
     user-select: none;
     filter: saturate(20%);
-    background: orange;
+    background: linear-gradient(135deg, rgb(247, 111, 61), orange);
     margin: 10px;
     border-radius: 15px;
     width: 250px;
     aspect-ratio: 5 / 7;
     transition: all .4s ease;
     margin-bottom: 25px;
+    box-shadow: 3px 3px 10px 1px rgba(32, 15, 0, 0.7);
 }
 
 .card h2, p {
