@@ -27,7 +27,7 @@
     aspect-ratio: 5 / 7;
     transition: all .4s ease;
     margin-bottom: 25px;
-    box-shadow: 3px 3px 10px 1px rgba(32, 15, 0, 0.7);
+    box-shadow: 2px 2px 5px 1px rgba(32, 15, 0, 0.7);
 }
 
 .card h2, p {
@@ -65,4 +65,5 @@
 .card:hover {
     filter: saturate(100%);
     scale: 1;
+    box-shadow: 3px 3px 10px 1px rgba(32, 15, 0, 0.7);
 }
