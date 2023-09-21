@@ -16,6 +16,7 @@
 }
 
 .card {
+    scale: 0.95;
     user-select: none;
     filter: saturate(20%);
     background: linear-gradient(135deg, rgb(247, 111, 61), orange);
@@ -31,6 +32,7 @@
 .card h2, p {
     user-select: text;
     margin: 15px;
+    text-shadow: 1px 1px 4px #402900;
 }
 
 .card p {
@@ -61,5 +63,5 @@
 
 .card:hover {
     filter: saturate(100%);
-    scale: 1.05;
+    scale: 1;
 }
