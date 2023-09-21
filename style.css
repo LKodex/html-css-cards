@@ -19,7 +19,8 @@
     scale: 0.95;
     user-select: none;
     filter: saturate(20%);
-    background: linear-gradient(135deg, rgb(247, 111, 61), orange);
+    /* background: linear-gradient(135deg, rgb(247, 111, 61), orange); */
+    background: radial-gradient(circle at center, orange, rgb(230, 122, 0) 85%, rgb(247, 111, 61));
     margin: 10px;
     border-radius: 15px;
     width: 250px;
